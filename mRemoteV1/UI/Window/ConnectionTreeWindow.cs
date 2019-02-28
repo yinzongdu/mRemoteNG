@@ -85,11 +85,11 @@ namespace mRemoteNG.UI.Window
             Text = Language.Connections;
             TabText = Language.Connections;
 
-            mMenAddConnection.ToolTipText = Language.strAddConnection;
-            mMenAddFolder.ToolTipText = Language.strAddFolder;
-            mMenViewExpandAllFolders.ToolTipText = Language.strExpandAllFolders;
-            mMenViewCollapseAllFolders.ToolTipText = Language.strCollapseAllFolders;
-            mMenSortAscending.ToolTipText = Language.strSortAsc;
+            mMenAddConnection.ToolTipText = Language.AddConnection;
+            mMenAddFolder.ToolTipText = Language.FolderNew;
+            mMenViewExpandAllFolders.ToolTipText = Language.ExpandAllFolders;
+            mMenViewCollapseAllFolders.ToolTipText = Language.CollapseAllFolders;
+            mMenSortAscending.ToolTipText = Language.SortAsc;
             mMenFavorites.ToolTipText = Language.Favorites;
 
             txtSearch.Text = Language.SearchPrompt;

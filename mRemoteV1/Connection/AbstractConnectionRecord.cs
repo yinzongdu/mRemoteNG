@@ -316,15 +316,11 @@ namespace mRemoteNG.Connection
          LocalizedAttributes.LocalizedDescription(nameof(Language.PropertyDescriptionUser1))]
         public virtual string UserField { get; set; }
 
-        [LocalizedAttributes.LocalizedCategory("strCategoryMiscellaneous", 7),
-            LocalizedAttributes.LocalizedDisplayName("strPropertyNameFavorite"),
-            LocalizedAttributes.LocalizedDescription("strPropertyDescriptionFavorite"),
-            TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
-        public virtual bool Favorite
-        {
-            get => GetPropertyValue("Favorite", _favorite);
-            set => SetField(ref _favorite, value, "Favorite");
-        }
+        [LocalizedAttributes.LocalizedCategory(nameof(Language.CategoryMiscellaneous), 7),
+         LocalizedAttributes.LocalizedDisplayName(nameof(Language.PropertyNameFavorite)),
+         LocalizedAttributes.LocalizedDescription(nameof(Language.PropertyDescriptionFavorite)),
+         TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
+        public virtual bool Favorite { get; set; }
         #endregion
 
         #region VNC

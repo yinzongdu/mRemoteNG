@@ -2610,4 +2610,13 @@ Development Channel includes Alphas, Betas &amp; Release Candidates.</value>
   <data name="Credits" xml:space="preserve">
     <value>Credits</value>
   </data>
+  <data name="Favorites" xml:space="preserve">
+    <value>Favorites</value>
+  </data>
+  <data name="PropertyNameFavorite" xml:space="preserve">
+    <value>Favorit</value>
+  </data>
+  <data name="PropertyDescriptionFavorite" xml:space="preserve">
+    <value>Show this connection in the favorites</value>
+  </data>
 </root>

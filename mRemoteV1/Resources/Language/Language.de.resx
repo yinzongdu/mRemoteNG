@@ -2485,10 +2485,10 @@ Development umfasst Alphas, Betas und Release Candidates.</value>
   <data name="PropertyDescriptionRDGatewayPassword" xml:space="preserve">
     <value>Gibt das Passwort des Remote-Desktop-Gateway-Servers an.</value>
   </data>
-  <data name="strPropertyDescriptionFavorite" xml:space="preserve">
+  <data name="PropertyDescriptionFavorite" xml:space="preserve">
     <value>Zeige diese Verbindung in den Favoriten</value>
   </data>
-  <data name="strPropertyNameFavorite" xml:space="preserve">
+  <data name="PropertyNameFavorite" xml:space="preserve">
     <value>Favorit</value>
   </data>
   <data name="Favorites" xml:space="preserve">

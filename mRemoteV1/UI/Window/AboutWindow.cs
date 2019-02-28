@@ -271,7 +271,7 @@ namespace mRemoteNG.UI.Window
         private void ApplyEditions()
         {
 #if PORTABLE
-            lblTitle.Text += " " + Language.LabelPortableEdition;
+            lblTitle.Text += " " + Language.PortableEdition;
 #endif
         }
 

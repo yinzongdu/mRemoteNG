@@ -2040,6 +2040,15 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Favorites.
+        /// </summary>
+        internal static string Favorites {
+            get {
+                return ResourceManager.GetString("Favorites", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File &amp;Format.
         /// </summary>
         internal static string FileFormatLabel {
@@ -4327,11 +4336,11 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Show this connection in the favorites menu..
+        ///   Looks up a localized string similar to Show this connection in the favorites.
         /// </summary>
-        internal static string strPropertyDescriptionFavorite {
+        internal static string PropertyDescriptionFavorite {
             get {
-                return ResourceManager.GetString("strPropertyDescriptionFavorite", resourceCulture);
+                return ResourceManager.GetString("PropertyDescriptionFavorite", resourceCulture);
             }
         }
         
@@ -4849,11 +4858,11 @@ namespace mRemoteNG {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Favorite.
+        ///   Looks up a localized string similar to Favorit.
         /// </summary>
-        internal static string strPropertyNameFavorite {
+        internal static string PropertyNameFavorite {
             get {
-                return ResourceManager.GetString("strPropertyNameFavorite", resourceCulture);
+                return ResourceManager.GetString("PropertyNameFavorite", resourceCulture);
             }
         }
         
