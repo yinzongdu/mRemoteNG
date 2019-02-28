@@ -4327,6 +4327,15 @@ namespace mRemoteNG {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Show this connection in the favorites menu..
+        /// </summary>
+        internal static string strPropertyDescriptionFavorite {
+            get {
+                return ResourceManager.GetString("strPropertyDescriptionFavorite", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Choose a icon that will be displayed when connected to the host..
         /// </summary>
         internal static string PropertyDescriptionIcon {
@@ -4836,6 +4845,15 @@ namespace mRemoteNG {
         internal static string PropertyNameExternalToolBefore {
             get {
                 return ResourceManager.GetString("PropertyNameExternalToolBefore", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Favorite.
+        /// </summary>
+        internal static string strPropertyNameFavorite {
+            get {
+                return ResourceManager.GetString("strPropertyNameFavorite", resourceCulture);
             }
         }
         

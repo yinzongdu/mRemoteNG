@@ -319,6 +319,11 @@ namespace mRemoteNG.Connection
          TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
         public bool UserField { get; set; }
 
+        [LocalizedAttributes.LocalizedCategory("strCategoryMiscellaneous", 8),
+        LocalizedAttributes.LocalizedDisplayNameInheritAttribute("strPropertyNameFavorite"),
+        LocalizedAttributes.LocalizedDescriptionInheritAttribute("strPropertyDescriptionFavorite"),
+        TypeConverter(typeof(MiscTools.YesNoTypeConverter))]
+        public bool Favorite { get; set; }
         #endregion
 
         #region VNC
